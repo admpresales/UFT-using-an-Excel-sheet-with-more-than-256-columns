@@ -6,6 +6,7 @@ Set ExcelApp = CreateExcel()
 'Note: if you don't want to see Excel on the desktop, modify the
 'CreateExcel function
 'ExcelApp.Visible = False
+print Environment.Value("TestDir") & "\\Default.xlsx"
 set parameterWorkbook = openWorkbook (excelApp, Environment.Value("TestDir") & "\\Default.xlsx")
 Set excelSheet = GetSheet(ExcelApp, "Sheet1")
 
