@@ -7,8 +7,7 @@ ParamRightBrace=>
 ParamLeftBrace=<
 NewFunctionHeader=1
 MinorVersion=0
-MajorVersion=6
-
+MajorVersion=6	
 DevelopTool=AQT
 
 [Actions]
@@ -55,4 +54,3 @@ Action0\ObjectRepository.bdb=
 Action1\Script.mts=
 Action1\Resource.mtr=
 Action1\ObjectRepository.bdb=
-
